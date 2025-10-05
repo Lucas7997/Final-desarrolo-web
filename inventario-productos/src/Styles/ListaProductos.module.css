@@ -1,0 +1,66 @@
+.contenedor {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.boton {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.botonEditar {
+  background-color: #ffbb2a !important ;
+  color: white !important;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botonEliminar {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botonEditar:hover,
+.botonEditar:focus {
+  background-color: #b9951e !important;
+}
+.botonEliminar:hover,
+.botonEliminar:focus {
+  background-color: #c82333;
+}

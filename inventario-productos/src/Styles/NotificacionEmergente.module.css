@@ -1,0 +1,27 @@
+.notificacion {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #28a745; /* verde éxito */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  font-weight: bold;
+  animation: aparecer 0.3s ease-out;
+  z-index: 2000;
+}
+
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
