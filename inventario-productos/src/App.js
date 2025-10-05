@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import VistaPublica from './pages/VistaPublica';
 import InventoryPage from './pages/InventoryPage';
 import ContactoPage from './pages/ContactoPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/productos" element={<InventoryPage />} />
         <Route path="/contacto" element={<ContactoPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
